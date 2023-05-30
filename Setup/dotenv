@@ -1,0 +1,13 @@
+install npm i dotenv
+
+HOW TO USE:
+create .env file for env variables
+
+whichever file we use env variables write -
+
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+access env 
+process.env.VARIABLE_NAME
